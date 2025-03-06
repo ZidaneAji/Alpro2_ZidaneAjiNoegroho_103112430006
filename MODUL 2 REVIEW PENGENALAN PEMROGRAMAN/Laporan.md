@@ -36,7 +36,7 @@ func main() {
 }
 ```
 
-![](2A1.png)
+![](Output/2A1.png)
 Program ini meminta pengguna memasukkan tiga kata, lalu menukar urutannya secara melingkar. Misalnya, jika input awal adalah "A B C", setelah pertukaran akan menjadi "B C A". Pertukaran dilakukan dengan menggunakan variabel tambahan (temp) untuk menyimpan sementara nilai awal sebelum dipindahkan.
 
 ### Soal 2
@@ -62,7 +62,7 @@ func main() {
 }
 ```
 
-![](2A2.png)
+![](Output/2A2.png)
 
 Program ini mengecek apakah suatu tahun adalah tahun kabisat atau tidak. Pengguna memasukkan tahun, lalu program mengeceknya dengan aturan tahun kabisat. Jika tahun bisa dibagi 400 atau bisa dibagi 4 tapi tidak bisa dibagi 100, maka hasilnya **true** (tahun kabisat), jika tidak, hasilnya **false** (bukan tahun kabisat).
 
@@ -91,7 +91,7 @@ func main() {
 }
 ```
 
-![](2A3.png)
+![](Output/2A3.png)
 
 Program ini menghitung volume dan luas permukaan bola berdasarkan jari-jari yang dimasukkan pengguna. Setelah memasukkan jari-jari, program menghitung volume dengan rumus **(4/3) × π × r³** dan luas permukaan dengan rumus **4 × π × r²**, lalu menampilkan hasilnya.
 
@@ -124,7 +124,7 @@ func main() {
 }
 ```
 
-![](2A4.png)
+![](Output/2A4.png)
 
 Program ini digunakan untuk mengonversi suhu dari Celsius ke Reamur, Fahrenheit, dan Kelvin. Pengguna diminta memasukkan suhu dalam Celsius, lalu program menghitung hasil konversinya menggunakan rumus matematika yang sesuai. Setelah perhitungan selesai, program menampilkan hasilnya dalam bentuk angka bulat tanpa desimal.
 
@@ -158,7 +158,7 @@ func main() {
 }
 ```
 
-![](2A5.png)
+![](Output/2A5.png)
 
 Program ini membaca lima angka dan tiga karakter dari input. Angka-angka tersebut dicetak sebagai karakter, sedangkan tiga karakter yang dimasukkan akan dinaikkan satu tingkat dalam kode ASCII sebelum dicetak kembali.
 
@@ -199,7 +199,7 @@ func main() {
 }
 ```
 
-![](2B1.png)
+![](Output/2B1.png)
 Program ini membaca empat warna dari input sebanyak lima kali dalam sebuah perulangan. Jika semua warna dalam satu set input berurutan adalah "merah", "kuning", "hijau", dan "ungu", maka variabel berhasil tetap true. Namun, jika ada satu set warna yang tidak sesuai urutan tersebut, maka berhasil akan berubah menjadi false. Setelah perulangan selesai, program mencetak nilai berhasil, yang menunjukkan apakah semua set warna memenuhi aturan atau tidak.
 
 ### Soal 2
@@ -268,7 +268,7 @@ func main() {
 }
 ```
 
-![](2B2.png)
+![](Output/2B2.png)
 
 Program ini meminta pengguna untuk memasukkan nama bunga secara berulang. Setiap bunga yang dimasukkan akan ditambahkan ke dalam sebuah string pita, dipisahkan dengan " - ". Jika pengguna mengetik "SELESAI", perulangan akan berhenti. Setelah itu, program mencetak daftar bunga yang telah dimasukkan dalam bentuk pita dan jumlah total bunga yang dimasukkan sebelum perintah selesai diberikan.
 
@@ -346,7 +346,7 @@ func main() {
 }
 ```
 
-![](2B3.png)
+![](Output/2B3.png)
 
 Program ini meminta pengguna untuk memasukkan berat belanjaan di dua kantong secara berulang. Jika salah satu berat bernilai negatif atau jika total berat kedua kantong melebihi 150, maka proses akan berhenti. Selisih berat antara kantong kiri dan kanan dihitung, dan jika selisihnya 9 atau lebih, variabel oleng akan bernilai true, yang berarti sepeda motor Pak Andi akan oleng. Program kemudian mencetak apakah sepeda motor akan oleng atau tidak dan mengulang proses sampai salah satu kondisi berhenti terpenuhi.
 
@@ -382,7 +382,7 @@ func main() {
 }
 ```
 
-![](2B4a.png)
+![](Output/2B4a.png)
 
 Program ini meminta pengguna untuk memasukkan nilai K, kemudian menghitung nilai fungsi f(K) berdasarkan rumus matematika yang telah ditentukan. Perhitungan dilakukan dengan memasukkan K ke dalam rumus ((4K+2)2)/((4K+1)(4K+3))((4K + 2)²) / ((4K + 1)(4K + 3))((4K+2)2)/((4K+1)(4K+3)).
 
@@ -424,7 +424,7 @@ func main() {
 }
 ```
 
-![](2B4b.png)
+![](Output/2B4b.png)
 
 Program ini menghitung perkiraan nilai akar 2 dengan menggunakan perulangan. Dimulai dari 1, hasilnya terus dikalikan dengan rumus tertentu sebanyak `K` kali. Setelah selesai, hasil akhirnya ditampilkan dengan 10 angka di belakang desimal.
 
@@ -503,7 +503,7 @@ func main() {
 }
 ```
 
-![](2C1.png)
+![](Output/2C1.png)
 
 program mengambil input berat parsel dari pengguna. Berat ini kemudian dikonversi menjadi kilogram dan sisa gram. Biaya dasar dihitung berdasarkan berat dalam kilogram, dengan tarif Rp. 10.000 per kilogram. Jika ada sisa gram, program menentukan tarif tambahan: Rp. 5 per gram jika sisa gram lebih dari atau sama dengan 500 gram, dan Rp. 15 per gram jika kurang dari 500 gram.
 Namun, jika berat mencapai atau melebihi 10 kg, biaya tambahan untuk gram diabaikan dan hanya biaya kilogram yang diperhitungkan. Setelah semua perhitungan selesai, program menampilkan detail berat, rincian biaya, dan total biaya pengiriman.
@@ -555,7 +555,7 @@ func main() {
 }
 ```
 
-![](2C2.png)
+![](Output/2C2.png)
 
 ### Soal 3
 
@@ -592,6 +592,6 @@ func main() {
 }
 ```
 
-![](2C3.png)
+![](Output/2C3.png)
 
 Program ini meminta pengguna memasukkan sebuah bilangan. Kemudian, program mencari dan mencetak faktor-faktor dari bilangan tersebut. Setelah itu, program mengecek apakah bilangan tersebut adalah bilangan prima. Jika hanya memiliki dua faktor (1 dan bilangan itu sendiri), maka bilangan dianggap prima. Hasilnya ditampilkan ke layar.
