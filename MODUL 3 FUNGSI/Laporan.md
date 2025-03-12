@@ -44,7 +44,7 @@ func main() {
 }
 ```
 
-![](soal1.png)
+![](Output/soal1.png)
 
 program yang dibuat untuk menghitung faktorial, permutasi, dan kombinasi. Fungsi faktorial(n) menghitung faktorial dari angka n menggunakan perulangan for. Fungsi permutasi(n, r) menghitung banyaknya susunan berbeda dari r elemen yang diambil dari n, menggunakan rumus n! / (n-r)!. Fungsi kombinasi(n, r) menghitung jumlah cara memilih r elemen dari n tanpa memperhatikan urutan, menggunakan rumus n! / (r! (n-r)!). 
 Di dalam main(), program membaca empat bilangan yang diinputkan oleh user. Lalu, program mencetak hasil permutasi dan kombinasi dari (a, c) dan (b, d). Jika n < r, maka permutasi dan kombinasi akan menghasilkan 0 karena tidak mungkin memilih lebih banyak elemen daripada yang tersedia.
@@ -83,7 +83,7 @@ func main() {
 }
 ```
 
-![](soal2.png)
+![](Output/soal2.png)
 
 program yang dibuat untuk menghitung hasil dari komposisi tiga fungsi matematika sederhana. Ada tiga fungsi yang didefinisikan: pertama untuk mengkuadratkan angka, kedua untuk mengurangi angka dengan dua, dan ketiga untuk menambahkan angka dengan satu. Fungsi komposisi mengambil tiga angka sebagai input dan menerapkan kombinasi dari ketiga fungsi yang sebelumnya dalam urutan yang berbeda. Hasil dari setiap komposisi fungsi dihitung dan dikembalikan sebagai tiga nilai. Di dalam fungsi main, program membaca tiga angka dari user, lalu memanggil fungsi komposisi untuk menghitung hasilnya dan mengeluarkan output angka yang telah diolah.
 
@@ -129,7 +129,7 @@ func main() {
 }
 ```
 
-![](soal3.png)
+![](Output/soal3.png)
 
 Program ini dibuat untuk menentukan apakah suatu titik berada di dalam satu atau dua lingkaran berdasarkan koordinat dan jari-jari lingkaran yang diberikan oleh user.
 Pertama, program membaca koordinat pusat dan jari-jari dua lingkaran serta koordinat titik yang akan diperiksa. Kemudian, jarak antara titik dan pusat lingkaran dihitung menggunakan rumus jarak. Jika jarak tersebut lebih kecil atau sama dengan jari-jari lingkaran, maka titik dianggap berada di dalam lingkaran.
