@@ -30,7 +30,7 @@ func fibonacci(n int) int {
 }
 ```
 
-![[](Output/soal1.png)
+![](Output/soal1.png)
 
 program untuk menghitung bilangan Fibonacci menggunakan rekursif. Fungsi fibonacci(n) mencari bilangan Fibonacci ke-n. Jika n adalah 0 atau 1, hasilnya langsung dikembalikan. Jika lebih besar, fungsi akan menjumlahkan dua bilangan Fibonacci sebelumnya. Di dalam function main, program mencetak bilangan Fibonacci dari 0 hingga 10 dengan menggunakan perulangan.
 
@@ -69,7 +69,7 @@ func pola(n, barisSekarang int) {
 }
 ```
 
-![[](Output/soal2.png)
+![](Output/soal2.png)
 
 sebuah Program yang dibut untuk membuat bintang per baris nya dan meminta jumlah baris dari user. Lalu, fungsi pola() mencetak bintang mulai dari satu hingga jumlah yang diminta. Fungsi cetakBintang() bertugas mencetak bintang dalam satu baris. Setiap baris bertambah satu bintang hingga mencapai angka yang dimasukkan.
 
@@ -102,7 +102,7 @@ func menampilkanFaktor(n, i int) {
 }
 ```
 
-![[](Output/soal3.png)
+![](Output/soal3.png)
 
 Program meminta user memasukkan angka, lalu fungsi menampilkanFaktor memeriksa angka dari 1 hingga angka yang telah di masukkan. Jika angka dapat membagi habis bilangan yang dimasukkan, angka itu dicetak sebagai faktor. Proses ini berulang terus hingga mencapai angka yang dimasukkan.
 
@@ -134,7 +134,7 @@ func kembali(n, i int) {
 }
 ```
 
-![[](Output/soal4.png)
+![](Output/soal4.png)
 
 program yang dibuat untuk mencetak angka dari n ke 1 lalu kembali lagi ke n, lalu fungsi kembali mencetak angka dari n ke 1. Saat mencapai 1, fungsi berhenti dan mulai mencetak angka kembali ke n.
 
@@ -165,7 +165,7 @@ func bilanganGanjil(i, n int) {
 }
 ```
 
-![[](Output/soal5.png)
+![](Output/soal5.png)
 
 program yang ini dibuat untuk menampilkan bilangan ganjil yang muncul dari angka 1 hingga n, lalu fungsi bilanganGanjil mencetak angka ganjil mulai dari 1 dan menambah 2 setiap pemanggilan hingga mencapai atau melewati n.
 
